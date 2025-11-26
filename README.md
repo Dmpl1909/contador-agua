@@ -7,10 +7,13 @@ Aplicação móvel e web para registar o consumo diário de água.
 - ✅ Contador de copos de água bebidos
 - ✅ Botão para adicionar copos (+1)
 - ✅ Botão para repor contador
+- ✅ Botão para salvar dia atual no histórico
 - ✅ Definir meta diária personalizada
 - ✅ Barra de progresso visual
 - ✅ Notificação quando atingir objetivo
 - ✅ Proteção contra valores negativos
+- ✅ Histórico dos últimos 7 dias com percentagens
+- ✅ Lembrete automático para hidratar (após 5 minutos)
 
 ## 🚀 Como executar
 

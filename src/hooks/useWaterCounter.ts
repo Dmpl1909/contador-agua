@@ -10,11 +10,7 @@ export const useWaterCounter = () => {
   const [copos, setCopos] = useState(0);
   const [meta, setMeta] = useState(8);
   const [lastAddedTime, setLastAddedTime] = useState<number | undefined>(undefined);
-  const [history, setHistory] = useState<HistoryEntry[]>([
-    { date: '28/11/2025', count: 6, goal: 8 },
-    { date: '27/11/2025', count: 8, goal: 8 },
-    { date: '26/11/2025', count: 5, goal: 8 },
-  ]);
+  const [history, setHistory] = useState<HistoryEntry[]>([]);
   const [lastDate, setLastDate] = useState(new Date().toDateString());
 
   const adicionarCopo = () => {

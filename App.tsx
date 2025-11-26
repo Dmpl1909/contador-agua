@@ -20,7 +20,8 @@ export default function App() {
     repor,
     salvarDiaAtual,
     definirMeta, 
-    objetivoAtingido 
+    objetivoAtingido,
+    percentual
   } = useWaterCounter();
 
   return (
@@ -30,7 +31,7 @@ export default function App() {
         showsVerticalScrollIndicator={false}
       >
         <Header />
-        <Counter count={copos} />
+        <Counter count={copos} percentage={percentual} />
         <SuccessBanner visible={objetivoAtingido} />
         <HydrationReminder lastAddedTime={lastAddedTime} />
         <ActionButtons onAdd={adicionarCopo} onReset={repor} onSaveDay={salvarDiaAtual} />
